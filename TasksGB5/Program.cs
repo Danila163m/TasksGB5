@@ -55,10 +55,10 @@ while (begin)
             PrintArray1(numbers1);
             int sum = 0;
 
-            if (numbers1[i] % 2 == 0) && (i % 2 > 0) 
-            {
-                 sum = sum + numbers1[i];
-            }
+//             if (numbers1[i] % 2 == 0) & (i % 2 > 0) 
+//             {
+//                  sum = sum + numbers1[i];
+//             }
 
                 Console.WriteLine($"всего {numbers1.Length} чисел, сумма элементов на нечётных позициях = {sum}");
 
