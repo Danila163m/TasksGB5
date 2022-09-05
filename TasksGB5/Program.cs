@@ -54,11 +54,14 @@ while (begin)
             Console.WriteLine("Вот наш массив: ");
             PrintArray1(numbers1);
             int sum = 0;
-
-//             if (numbers1[i] % 2 == 0) & (i % 2 > 0) 
-//             {
-//                  sum = sum + numbers1[i];
-//             }
+            
+            for (int z = 1; z < numbers1.Length; z+=2)
+            {
+                 if (numbers1[z] % 2 == 0)
+                 {
+                    sum+=numbers1[z];
+                 } 
+            }
 
                 Console.WriteLine($"всего {numbers1.Length} чисел, сумма элементов на нечётных позициях = {sum}");
 
