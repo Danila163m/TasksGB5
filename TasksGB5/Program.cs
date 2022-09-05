@@ -50,9 +50,9 @@ while (begin)
             Console.WriteLine("Введите размер массива");
             int size1 = Convert.ToInt32(Console.ReadLine());
             int[] numbers1 = new int[size1];
-            FillArrayRandomNumbers(numbers1);
+            FillArrayRandomNumbers1(numbers1);
             Console.WriteLine("Вот наш массив: ");
-            PrintArray(numbers1);
+            PrintArray1(numbers1);
             int sum = 0;
 
             for (int z = 0; z < numbers1.Length; z+=2)
